@@ -9,6 +9,7 @@ pipeline {
         stage('Checkout') {
            steps {
               script {
+                 echo 'Hello from shd101wyy/test-erc20'
                  echo 'websiteOrigin: ' + env.websiteOrigin
                  echo 'bytecodeId:    ' + env.bytecodeId
               }
